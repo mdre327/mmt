@@ -5,7 +5,7 @@ const cardData=[
         label:"trip type",
         text:"One Way",
         arrow:true,
-        w1:'6.5rem'
+        w1:'125px'
     },
     {
         label:"From",

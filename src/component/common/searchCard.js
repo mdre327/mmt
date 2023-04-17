@@ -1,10 +1,10 @@
 import React from 'react'
 
-function SearchCard({label,arrow,text,props}) {
+function SearchCard({label,arrow,text,w1}) {
   return (
     <>
           <div className={`search-card`}
-          style={{width:`${props?.w1 ? props?.w1 : '12rem'}`}}>
+          style={{width:`${w1 ? w1 : '12rem'}`}}>
         <label
           for="tripType"
           className="search-Cardlabel"

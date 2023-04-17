@@ -68,7 +68,7 @@
     padding-left: 9.7rem;
     padding-top: 0rem;
 }
-makeFlex.hrtlCenter {
+.makeFlex.hrtlCenter {
     align-items: center;
 }
 
@@ -94,3 +94,6 @@ makeFlex.hrtlCenter {
     font-weight: 700;
 }
 .fareTypeOptions{padding-left: 1rem;}
+.flightsContainer{
+    height: 3rem;
+}
