@@ -1,0 +1,220 @@
+.singleHeader .headerOuter {
+    box-shadow: 0 1px 7px 0 rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    position: relative;
+    z-index: 13;
+}
+.headerOuter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 11;
+}
+.singleHeader .chHeaderContainer {
+    display: flex;
+}
+.chHeaderContainer {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0 0px;
+}
+
+.chHeaderContainer .logoContainer {
+    font-size: calc(var(--font-scale, 1) * 14px);
+    margin-right: 25px;
+    min-width: 120px;
+    display: flex;
+}
+.chHeaderContainer .chMmtLogo {
+    width: 113px;
+    height: 36px;
+    display: inline-block;
+}
+a {
+    color: var(--color-primary, #008cff);
+    text-decoration: none;
+    cursor: pointer;
+}
+.chHeaderContainer nav {
+    flex: 2;
+}
+.chHeaderContainer nav ul {
+    width: 100% !important;
+}
+.makeFlex {
+    display: flex;
+}
+.font12 {
+    font-size: calc(var(--font-scale, 1) * 12px);
+    line-height: 12px;
+}
+.chHeaderContainer nav ul li {
+    margin: 0 10px;
+    position: relative;
+    flex-shrink: 0 !important;
+}   
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+.makeFlex.column {
+    flex-direction: column;
+}
+.makeFlex {
+    display: flex;
+}
+.chHeaderContainer li .chNavIcon {
+    width: 32px;
+    height: 26px;
+}
+.chFlights.active {
+    background-position: -2px -1.5px;
+}
+.chFlights {
+    background-position: -2px -30px;
+}
+.chSprite {
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.appendBottom2 {
+    margin-bottom: 2px;
+}
+.chHeaderContainer li a.active .chNavText {
+    background: var(--color-primary, #008cff);
+    color: #fff;
+}
+
+.chHeaderContainer li .chNavText {
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.chHeaderContainer .chMmtLogo img {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.chHotels {
+    background-position: -37px -28px;
+}
+.chSprite {
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+li{
+    list-style-type: none;
+}
+.chHeaderContainer li .chNavText {
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.darkGreyText {
+    color: #4a4a4a;
+}
+.chHeaderContainer li .chNavIcon {
+    width: 32px;
+    height: 26px;
+}
+
+.chHomestays {
+    background-position: -80px -116px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chSprite {
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.appendBottom2 {
+    margin-bottom: 2px;
+}
+.chHeaderContainer li .chNavText {
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.chHolidays {
+    background-position: -54px -179px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+
+.darkGreyText {
+    color: #4a4a4a;
+}
+.chTrains {
+    background-position: -137px -27px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chBuses {
+    background-position: -87px -30px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chCabs {
+    background-position: -112px -30px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chForex {
+    background-position: -101px -179px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chMore {
+    background-position: -198px -28px;
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite11.png) !important;
+    background-repeat: no-repeat;
+    background-size: 230px 306px;
+}
+.chHeaderContainer .chNavText .arrow {
+    margin: 0 0 2px 2px;
+    border-top: 2px solid #4a4a4a;
+    border-right: 2px solid #4a4a4a;
+}
+
+.chHeaderContainer .arrowDown {
+    transform: rotate(135deg) skew(7deg, 7deg);
+}
+.chHeaderContainer .arrow {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    padding: 2px;
+    margin: 0 10px;
+    border-top: 2px solid var(--color-primary, #008cff);
+    border-right: 2px solid var(--color-primary, #008cff);
+    border-bottom: 0;
+}
+.arrow {
+    position: relative;
+}
+.arrowDown {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    top: -2px;
+}
+.mt0{
+    margin-top: 0;
+    padding-left: 0;
+}

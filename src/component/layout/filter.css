@@ -1,0 +1,141 @@
+.filtersOuter {
+    padding: 12px 15px;
+}
+.appendBottom15 {
+    margin-bottom: 15px;
+}
+.filtersHeading {
+    font-size: calc(1*16px);
+    font-weight: 900;
+}
+.makeFlex.spaceBetween {
+    justify-content: space-between;
+}
+.makeFlex {
+    display: flex;
+}
+.appendBottom12 {
+    margin-bottom: 12px;
+}
+.checkboxContainer {
+    cursor: pointer;
+    display: flex;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.appendLeft5 {
+    margin-left: 5px;
+}
+.commonCheckbox {
+    display: flex;
+    position: relative;
+}
+.commonCheckbox input {
+    cursor: pointer;
+    height: 18px;
+    opacity: 0;
+    position: absolute;
+    width: 18px;
+    z-index: 2;
+}
+.checkboxTitle {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 1rem;
+}
+.appendBottom12 {
+    margin-bottom: 12px;
+}
+.linkText {
+    all: unset;
+    color: #0091ff;
+    cursor: pointer;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.commonCheckbox .box {
+    align-items: center;
+    background: #fff;
+    border: 2px solid #9b9b9b;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.sizeSm.commonCheckbox .box {
+    height: 18px;
+    width: 18px;
+}
+.commonCheckbox .box .check {
+    border-color: #fff;
+    -webkit-border-image: none;
+    border-image: none;
+    border-style: none solid solid none;
+    border-width: medium 2px 2px medium;
+    box-sizing: border-box;
+    height: 11px;
+    opacity: 0;
+    position: relative;
+    top: -1px;
+    -webkit-transform: scale(1) rotate(45deg);
+    transform: scale(1) rotate(45deg);
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    width: 5px;
+    z-index: 1;
+}
+.filtersHeading {
+    font-size: calc(var(--font-scale, 1)*16px);
+    font-weight: 900;
+}
+
+.rangeslider-horizontal {
+    height: 4px;
+    border-radius: 10px;
+}
+.rangeslider, .rangeslider .rangeslider__fill {
+    display: block;
+    box-shadow: none;
+}
+.rangeslider {
+    margin: 20px 0;
+    position: relative;
+    background: #e9e9e9;
+    -ms-touch-action: none;
+    touch-action: none;
+}
+.rangeslider-horizontal .rangeslider__fill {
+    height: 6px;
+    background-color: #008cff;
+    border-radius: 10px;
+    top: 0;
+}
+.rangeslider-horizontal .rangeslider__handle {
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    top: 50%;
+    transform: translate3d(-50%,-50%,0);
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.2)!important;
+    border: none;
+}
+.rangeslider .rangeslider__handle {
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4), 0 -1px 3px rgba(0,0,0,.4);
+}
+.rangeslider__labels {
+    position: relative;
+}
+.darkText {
+    color: #4a4a4a;
+}
